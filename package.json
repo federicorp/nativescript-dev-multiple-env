@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-dev-multiple-env",
+  "name": "@nativescript-dev/multiple-environments",
   "version": "1.0.0",
   "description": "A Hook For Nativescript to allow multiple Environments",
   "repository": "https://github.com/federicorp/nativescript-dev-multiple-env",
