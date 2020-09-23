@@ -1,0 +1,32 @@
+{
+  "name": "nativescript-dev-multiple-env",
+  "version": "2.0.0-beta5",
+  "description": "A Hook For Nativescript to allow multiple Environments ",
+  "repository": "https://gitlab.spartadigital.co.uk/open-source/nativescript-dev-multiple-environments",
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "author": {
+    "name": "Brendan Ingham",
+    "email": "brendan.ingham13@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "exit 0;",
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js",
+    "prepare.package": "cd ../publish && ./pack.sh",
+    "prepare.demo.install": "cd ../demo && tns plugin install ../publish/package/*.tgz",
+    "prepare.demo": " npm run prepare.package && npm run prepare.demo.install"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.0",
+    "nativescript-hook": "^0.2.4"
+  }
+}
