@@ -1,8 +1,8 @@
 {
   "name": "nativescript-dev-multiple-env",
-  "version": "2.0.0-beta5",
-  "description": "A Hook For Nativescript to allow multiple Environments ",
-  "repository": "https://gitlab.spartadigital.co.uk/open-source/nativescript-dev-multiple-environments",
+  "version": "1.0.0",
+  "description": "A Hook For Nativescript to allow multiple Environments",
+  "repository": "https://github.com/federicorp/nativescript-dev-multiple-env",
   "nativescript": {
     "hooks": [
       {
@@ -13,8 +13,8 @@
     ]
   },
   "author": {
-    "name": "Brendan Ingham",
-    "email": "brendan.ingham13@gmail.com"
+    "name": "Federicorp",
+    "email": "fede_r@live.com"
   },
   "license": "Apache-2.0",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "@types/node": "^10.7.0",
-    "nativescript-hook": "^0.2.4"
+    "@nativescript/hook": "^2.0.0"
   }
 }

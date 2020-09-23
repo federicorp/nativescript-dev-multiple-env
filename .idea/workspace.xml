@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f986fa5f-3e10-42db-b981-155c904dca3d" name="Default Changelist" comment="" />
+    <list default="true" id="f986fa5f-3e10-42db-b981-155c904dca3d" name="Default Changelist" comment="Cloned from npmjs">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/before-prepare.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/before-prepare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/env-switcher.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/env-switcher.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/postinstall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preuninstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/preuninstall.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +41,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600865697079</updated>
-      <workItem from="1600865698150" duration="308000" />
+      <workItem from="1600865698150" duration="2151000" />
     </task>
+    <task id="LOCAL-00001" summary="Cloned from npmjs">
+      <created>1600866112453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600866112453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cloned from npmjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cloned from npmjs" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1600866395020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600866395020" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1600866395020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600866395020" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1600866395020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600866395020" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1600866395020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600866395020" />
   </component>
 </project>

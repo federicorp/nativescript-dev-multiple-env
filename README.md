@@ -1,6 +1,10 @@
-# nativescript-dev-multiple-environments
+All credits to Brendan Ingham, original creator of this amazing hook.
+
+# @nativescript-dev/multiple-environments
 
 This Hook is made for using multiple environments within a nativescript application.
+
+Actually this is a copy of nativescript-dev-multiple-environments adapted to work on NS 7 CLI.
 
 ## What it does
 
