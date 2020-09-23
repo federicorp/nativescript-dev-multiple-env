@@ -1,6 +1,6 @@
 All credits to Brendan Ingham, original creator of this amazing hook.
 
-# @nativescript-dev/multiple-environments
+# @nativescript/multiple-environments
 
 This Hook is made for using multiple environments within a nativescript application.
 
