@@ -2,7 +2,10 @@
   "name": "@nativescript/multiple-environments",
   "version": "1.0.0",
   "description": "A Hook For Nativescript to allow multiple Environments",
-  "repository": "https://github.com/federicorp/nativescript-dev-multiple-env",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federicorp/nativescript-dev-multiple-env.git"
+  },
   "nativescript": {
     "hooks": [
       {
@@ -12,10 +15,7 @@
       }
     ]
   },
-  "author": {
-    "name": "Federicorp",
-    "email": "fede_r@live.com"
-  },
+  "author": "Federicorp <fede_r@live.com>",
   "license": "Apache-2.0",
   "scripts": {
     "test": "exit 0;",
@@ -28,5 +28,14 @@
   "devDependencies": {
     "@types/node": "^10.7.0",
     "@nativescript/hook": "^2.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/federicorp/nativescript-dev-multiple-env/issues"
+  },
+  "homepage": "https://github.com/federicorp/nativescript-dev-multiple-env#readme",
+  "main": "postinstall.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
