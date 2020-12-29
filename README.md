@@ -16,6 +16,8 @@ it also copies any files you have suffixed with the name of the environemnt for 
 
 Once you have a initial `environment-rules.json` file you can change between the environments using `--env.use.ENV_NAME`
 
+You can also create environment file each platform like `environment-rules.android.json` or `environment-rules.ios.json`
+
 for example for ios:
 `tns run ios --env.use.staging`
 
@@ -39,12 +41,12 @@ a basic environment-rules.json file is generated for you it looks like this:
         {
             name: "staging",
             packageId: "org.nativescript.appName.staging",
-            copyRule: "(.*\\.staging\\..*)"
+            copyRules: "(.*\\.staging\\..*)"
         },
         {
             name: "release",
             packageId: "org.nativescript.appName.release",
-            copyRule: "(.*\\.release\\..*)"
+            copyRules: "(.*\\.release\\..*)"
         }
     ]
 }
