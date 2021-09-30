@@ -39,12 +39,12 @@ a basic environment-rules.json file is generated for you it looks like this:
         {
             name: "staging",
             packageId: "org.nativescript.appName.staging",
-            copyRule: "(.*\\.staging\\..*)"
+            copyRules: "(.*\\.staging\\..*)"
         },
         {
             name: "release",
             packageId: "org.nativescript.appName.release",
-            copyRule: "(.*\\.release\\..*)"
+            copyRules: "(.*\\.release\\..*)"
         }
     ]
 }
